@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ---------------------------------
+# [Custom Rules for STAT433 Project]
+# ---------------------------------
+
+# 1. Data Files (Prevent uploading large datasets)
+*.npy
+*.npz
+*.csv
+data/
+
+# 2. Model Checkpoints (Prevent uploading heavy weights)
+*.pt
+*.pth
+checkpoints/
+
+# 3. OS & IDE Settings (Mac/Windows/VSCode junk files)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
