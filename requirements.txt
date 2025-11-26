@@ -1,0 +1,7 @@
+# [Instruction]
+# Please list all libraries and their versions used in your project for reproducibility.
+# Example:
+# torch==2.1.0
+# numpy==1.24.3
+# scipy
+# torchdiffeq
